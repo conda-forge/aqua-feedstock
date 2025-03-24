@@ -2,7 +2,7 @@
 
 package:
   name: aqua
-  version: {{ version }}
+  version: {{ version | replace('-', '_') }}
 
 source:
   url: https://github.com/aquaproj/aqua/archive/v{{ version }}.tar.gz
