@@ -1,4 +1,4 @@
-{% set version = "2.55.1-0" %}
+{% set version = "2.55.2-0" %}
 
 package:
   name: aqua
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/aquaproj/aqua/archive/v{{ version }}.tar.gz
-  sha256: a0da3a54f3a6c635b255f18e0986855193de115cffea1588faa22440cb84205d
+  sha256: 516513c840acb7b426a51505850b45bdaf0e3e966198e15dc3b7214fa62dd2e9
 
 build:
   number: 0
