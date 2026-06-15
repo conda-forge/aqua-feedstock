@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.60.1-0"
+  version: "2.60.1-1"
 
 package:
   name: aqua
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/aquaproj/aqua/archive/v${{ version }}.tar.gz
-  sha256: eea276081ad6df3e554372468d6f99cae2aa60d8a9e3538714f4e6b1d34ae9a8
+  sha256: 4510521f070071bc0d5ed9f87701df423304775fdf833a7ced2c663dd6b45f6b
 
 build:
   number: 0
